@@ -1,0 +1,151 @@
+/************************************************
+The Universal Style
+************************************************/
+* {
+  box-sizing: border-box;
+}
+html {
+  margin: 0;
+  font-family: Helvetica, Arial, sans-serif;
+  text-rendering: optimizeLegibility;
+  overflow-x: hidden;
+}
+h2 {
+  margin-top: 0;
+  margin-bottom: 10px;
+  padding-top: 50px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #c37d0d;
+  font-family: 'Oswald', sans-serif;
+  font-size: 2.2em;
+  font-weight: 600;
+}
+p {
+  color: #fff;
+  font-size: 0.8em;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+a {
+  text-decoration: none;
+}
+.clear-fix {
+  display: block;
+  content: "";
+  clear: both;
+}
+/************************************************
+The Button Style 
+************************************************/
+.btn {
+  margin: 0 auto;
+  text-transform: uppercase;
+  padding-top: 6px;
+  display: block;
+  width: 120px;
+  height: 35px;
+  font-family: 'Oswald', sans-serif;
+  font-size: 1em;
+  text-align: center;
+}
+.btn-black {
+  background-color: #2f2f2f;
+  color: #fff;
+}
+.btn-white {
+  background-color: #fff;
+  color: #2f2f2f;
+}
+.btn:hover {
+  background-color: #c37d0d;
+  color: #2f2f2f;
+}
+/************************************************
+The Header Style
+************************************************/
+header {
+  height: 600px;
+  background-image: url(../img/bg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+header h1 {
+  margin-top: 0;
+  padding-top: 170px;
+  font-family: 'Oswald', sans-serif;
+  font-size: 9em;
+  font-weight: 600;
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+}
+header p {
+  text-align: center;
+  text-transform: capitalize;
+  color: #fff;
+  margin-top: -100px;
+  font-size: 1em;
+}
+/************************************************
+The Features Section Style
+************************************************/
+.features {
+  background: #2f2f2f;
+}
+.features .col {
+  float: left;
+  width: 24%;
+  margin: 4%;
+}
+/************************************************
+The Jumbotron Section Style
+************************************************/
+.jumbotron {
+  height: 450px;
+  background-image: url(../img/feature.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.slogan {
+  text-align: center;
+  margin-top: 0;
+  padding-top: 190px;
+  font-family: 'Oswald', sans-serif;
+  font-size: 3.1em;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #fff;
+}
+.learn-more {
+  background: #2f2f2f;
+  padding-bottom: 80px;
+}
+/************************************************
+The Jumbotron Section Style
+************************************************/
+footer {
+  height: 500px;
+  background-image: url(../img/footer.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.promote {
+  text-align: center;
+  margin-top: 0;
+  padding-top: 200px;
+  font-family: 'Oswald', sans-serif;
+  font-size: 2em;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #fff;
+  margin-bottom: 25px;
+}
