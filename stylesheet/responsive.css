@@ -1,0 +1,25 @@
+/*----------------------------------
+Big screen table 
+----------------------------------*/
+@media only screen and (max-width: 1200px){
+}
+/*----------------------------------
+Small tablet 768px to 1024px 
+----------------------------------*/
+@media only screen and (max-width: 1023px){
+}
+/*----------------------------------
+Small phone 481px to 767px 
+----------------------------------*/
+@media only screen and (max-width: 767px){
+  .features .col {
+    width: 100%;
+  }
+}
+
+/*----------------------------------
+Small phone 0 to 480px 
+----------------------------------*/
+@media only screen and (max-width: 480px){
+}
+

@@ -101,7 +101,9 @@ The Features Section Style
 .features .col {
   float: left;
   width: 24%;
-  margin: 4%;
+  margin-left: 2%;
+  margin-right: 2%;
+  margin-bottom: 20px;
 }
 /************************************************
 The Jumbotron Section Style
